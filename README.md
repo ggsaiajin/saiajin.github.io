@@ -1,3 +1,4 @@
-# gahahahaha fuck you jared and richand
-
-hello world, putangina mo
+<div style="width: 1440px; height: 1024px; position: relative; background: white; overflow: hidden">
+  <div style="width: 1440px; height: 1024px; left: 0px; top: 0px; position: absolute; background: #111111"></div>
+  <div style="width: 1156px; height: 580px; left: 168px; top: 341px; position: absolute; background: #BF00FF; box-shadow: 430px 430px 430px; filter: blur(215px)"></div>
+</div>
