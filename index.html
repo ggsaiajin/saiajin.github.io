@@ -1,6 +1,196 @@
 <html>
-<div style="width: 1440px; height: 1024px; position: relative; background: white; overflow: hidden">
-  <div style="width: 1440px; height: 1024px; left: 0px; top: 0px; position: absolute; background: #111111"></div>
-  <div style="width: 1156px; height: 580px; left: 168px; top: 341px; position: absolute; background: #BF00FF; box-shadow: 430px 430px 430px; filter: blur(215px)"></div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      color: white;
+      background:
+        radial-gradient(circle at top left, #3b0a57, transparent 40%),
+        radial-gradient(circle at center, #0b1a3a, transparent 40%),
+        #020617;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 24px 40px;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 24px;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 120px 40px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      font-size: 14px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      background: #34d399;
+      border-radius: 50%;
+    }
+
+    h1 {
+      font-size: 56px;
+      font-weight: 800;
+      line-height: 1.1;
+      margin: 32px 0;
+    }
+
+    p {
+      max-width: 500px;
+      opacity: 0.75;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      margin-top: 40px;
+      display: flex;
+      gap: 16px;
+    }
+
+    button {
+      padding: 14px 22px;
+      border-radius: 14px;
+      border: none;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    .primary {
+      background: white;
+      color: black;
+      font-weight: 600;
+    }
+
+    .secondary {
+      background: rgba(255,255,255,0.12);
+      color: white;
+      backdrop-filter: blur(10px);
+    }
+
+    .stats {
+      margin-top: 80px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+      gap: 16px;
+      padding: 20px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 20px;
+      backdrop-filter: blur(16px);
+    }
+
+    .card {
+      background: rgba(255,255,255,0.12);
+      padding: 20px;
+      border-radius: 16px;
+    }
+
+    .card h2 {
+      font-size: 22px;
+      margin-bottom: 6px;
+    }
+
+    .card span {
+      opacity: 0.7;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <strong>Your Name</strong>
+    <div>
+      <a href="#">About</a>
+      <a href="#">Work</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="badge">
+      <div class="dot"></div>
+      Digital Artist • Developer • Technologist
+    </div>
+
+    <h1>
+      Liquid glass aesthetics<br>
+      for a modern, vibrant<br>
+      personal presence
+    </h1>
+
+    <p>
+      Crafting interactive experiences with a sleek glass interface,
+      subtle depth, and delightful motion.
+    </p>
+
+    <div class="buttons">
+      <button class="primary">View Work</button>
+      <button class="secondary">Get in touch</button>
+    </div>
+
+    <div class="stats">
+      <div class="card">
+        <h2>5+</h2>
+        <span>Years Experience</span>
+      </div>
+      <div class="card">
+        <h2>30+</h2>
+        <span>Projects Delivered</span>
+      </div>
+      <div class="card">
+        <h2>Interactive UI</h2>
+        <span>Specialty</span>
+      </div>
+      <div class="card">
+        <h2>Remote</h2>
+        <span>Location</span>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
+
 </html>
